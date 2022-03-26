@@ -1,0 +1,18 @@
+· Consum mensual Viladecans
+
+	- DATA - Data de facturació del consum
+	- NUM_IAE - Epígraf IAE d'activitat econòmica del local
+	- TEXT_IAE - Text descriptiu de l'epígraf IAE
+	- CONSUM_MES - Consum acumulat durant els dos mesos de període de facturació (en m3)
+	- NUM_CLIENT_ANONIMITZAT - Nú ero de client anonimitzat
+
+
+- Consum diari Viladecans 
+
+	- DATA - Data de registre del consum
+	- TIPUS_CLIENT - Tipologia de client (comercial o industrial, en ambdos casos es tracta de clients no domèstics)
+	- CONSUM_DIA - Consum acumulat durant el dia en m3
+	- NUM_CLIENT_ANONIMITZAT - Número de client anonimitzat
+.
+
+El dataset de consum mensual proporciona la informació sobre el tipus d'activiat econòmica dels clients. La informació de consum no és rellevant
