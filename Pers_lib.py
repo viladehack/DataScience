@@ -2,6 +2,7 @@
 ## Import libraries
 from IPython.display import display
 import matplotlib.pyplot as plt
+from pandas import CategoricalDtype
 import seaborn as sns
 # Dataframe's Information
 def df_info(par_df):
@@ -15,7 +16,7 @@ def df_info(par_df):
     list_cols = par_df.columns
     display(par_df[list_cols].isnull().sum())
     print("[--------------Values in categorical variables---------]")
-    list_cat_cols = par_df.select_dtypes(include= object , exclude=None)
+    list_cat_cols = par_df.select_dtypes(include= [object,CategoricalDtype] , exclude=None)
     for i in list_cat_cols:
         print("------------------%s-------------------" %i)
         print("------------Unique Values--------------")
