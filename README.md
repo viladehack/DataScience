@@ -1,9 +1,11 @@
 # HCK1_VILADEHACK_2022
+
 Hackathon Viladecans Tourism
 
-Team:
+## Team
+
 -----
+
 BackEnd:     Daniel Españadero
-FrontEnd:    Krystel 
+FrontEnd:    Krystel Rodriguez
 DS:          Marc Humet, Leo Madsen, Javier Alfonso
-    
