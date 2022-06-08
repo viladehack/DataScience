@@ -7,5 +7,7 @@ Hackathon Viladecans Tourism
 -----
 
 BackEnd:     Daniel Españadero
+
 FrontEnd:    Krystel Rodriguez
+
 DS:          Marc Humet, Leo Madsen, Javier Alfonso
